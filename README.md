@@ -1,1 +1,1 @@
-Website to practice html and css skills
+This is a website I developed as a project for my Project Management class that it also turned out a way to practice my HTML and CSS (Flexbox) skills. This is a website of my parent's coffee shop in Montes Claros, Brazil in which I show some of the menu items.
