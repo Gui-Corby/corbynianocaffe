@@ -1,0 +1,263 @@
+body {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.logo {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Arial';
+
+}
+
+a, a:visited, .topo:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #fe2712;
+    text-decoration: underline;
+}
+
+.imagem_pais {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.imagem_corby {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.imagem_pais img {
+    width: 100%;
+}
+
+.imagem_corby img {
+    height: 400px;
+    width: 400px;
+}
+
+.imagem_pais, .text_pais {
+    position: relative;
+    bottom: 0;
+    top: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 93.5%; 
+    padding: 30px; 
+    border: solid black;
+    }
+
+.imagem_corby, .text_corby {
+    position: relative;
+    bottom: 0;
+    top: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 93.5%; 
+    padding: 30px; 
+    border: solid black;
+}
+
+.hist, .corbiniano, .corbiniano h2, .cafes h2, a {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.hist h2, .corbiniano h2 {
+    font-family: 'Apple Chancery';
+    font-size: 40px;
+}
+
+.hist p, .corbiniano p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    
+}
+
+.cafes h2, .sanduiches h2, .avoc_peanut h2, .brunch h2, .sobrem h2 {
+    font-family: 'Apple Chancery';
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Apple Chancery;
+}
+
+.fotos_cafes, .fotos_sand, .fotos_avoc_peanut,
+.fotos_brunch, .fotos_sobr {
+    margin-top: 30px;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.row2 {
+    margin-top: 25px;
+} 
+
+.foto #sand-carne,
+#sand-veg, #sand-frango, #avo1, #avo2, #avo3, #pean1, #pean2, 
+#brunch1, #brunch2, #brunch3, #brunch4, #brownie, #banoffee, #palha, 
+#cookie1, #alema, #cookie2 {
+    width: 350px;
+    height: 350px;
+    border: solid black 10px;
+}
+
+.fotos_cafes img {
+    width: 300px;
+    height: 350px;
+    border: solid black 10px;
+}
+
+.foto #amendo {
+    align-self: center;
+}
+
+.cafes, .sanduiches, .avoc_peanut, .brunch, .sobrem {
+    margin-top: 70px;
+
+}
+
+
+.foto {
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 25px;
+
+}
+
+.fotos_cafes, .fotos_sand, .fotos_avoc_peanut, .fotos_brunch,
+.fotos_brunch, .fotos_sobr {
+    border-bottom: 4px dotted #fe2712; ;
+}
+
+
+.link_instagram {
+    padding-top: 40px;
+}
+
+.link_instagram a {
+    color: #fe2712;
+    text-decoration: underline;
+}
+
+.link_instagram a:hover {
+    text-decoration: none;
+}
+
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+iframe {
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+}
+
+
+.voltar_topo {
+    line-height: 100%;
+}
+
+.voltar_topo h3 {
+    float: right;
+    text-decoration: underline;
+    color: #fe2712;
+    margin-right: 30px;
+}
+.voltar_topo h3:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.eu {
+   display: flex;
+   justify-content: flex-start;
+   width: 100%;
+   color: #261111;
+}
+
+.links_eu {
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 80%;
+}
+
+@media (max-width: 800px) {
+    body {
+        width: 75%;
+    }
+    iframe {
+        width: 80%;
+    }
+    .row1, .row2 {
+       margin-left: 20px;
+       margin-right: 20px;
+}
+
+@media (min-width: 900px) {
+    body {
+        width: 65%;
+    }
+  }
+}
+
+@media (min-width: 280px)  and (max-width: 530px) {
+    .imagem_corby img {
+        height: 210px;
+        width: 210px;
+    }
+
+    .fotos_cafes img {
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+
+    .fotos_sand img, .fotos_avoc_peanut img, .fotos_brunch img, .fotos_sobr img {
+        margin-left: 140px;
+    }
+
+}
